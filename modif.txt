@@ -1,0 +1,6 @@
+the function doesn't need to do all of it... it should just check whether there is any disk which is breaching threshold, otherwise we don't need to make any metadata call or define any variables... that function should only return any volume which breached threashold and thats it...
+variable "A" didn't understand where that was defined
+Things like "echo "Customer Name: PierianDX"" here "PierianDX" can be a variable so that it is easy for you to reuse this for other customer
+[1:10 AM] Jayan B: for array you can find length or parse elements by using "${array[@]}"
+[1:10 AM] Jayan B: and for index if you need use "${!array[@]}"
+find <path> -type d <limit depth> |xargs du -h
